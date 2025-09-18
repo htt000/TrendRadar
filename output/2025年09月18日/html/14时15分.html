@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 98</p><p>生成时间: 2025-09-18 14:15:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">18</td>
+                <td class="percentage">18.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45283887" target="_blank" class="news-link">Slack has raised our charges by $195k per year</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1160184" target="_blank" class="news-link">一天一款实用的 AI 工具，第 1 期， AI 标题生成工具</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1160181" target="_blank" class="news-link">搞不懂了， tailscale subnets，局域网中必须有一个 dmz 机器 parsec 才能连接</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3755815" target="_blank" class="news-link">A股午后走低，三大股指翻绿，芯片半导体、AI硬件股活跃，恒指跌近1%，科网股下跌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1160174" target="_blank" class="news-link">ai code agent 能取代程序员吗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3755816" target="_blank" class="news-link">华为昇腾AI芯片路线图公布：明年Q1推出昇腾950PR，采用自研HBM</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1160162" target="_blank" class="news-link">通过 Ai 编码工具做的 vx 小程序，麻烦各位看官说说想法</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45251111" target="_blank" class="news-link">Orange Pi RV2 $40 RISC-V SBC: Friendly Gateway to IoT and AI Projects</a> [6] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1160144" target="_blank" class="news-link">AI 银弹，领导的最终幻想和程序员不得不承受的痛</a> [7] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3755769" target="_blank" class="news-link">华尔街眼里“中国AI”：大摩“腾讯是2C最佳”，高盛“阿里是2B最佳”</a> [7] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45282497" target="_blank" class="news-link">One Token to rule them all – Obtaining Global Admin in every Entra ID tenant</a> [8] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3755781" target="_blank" class="news-link">真实、残酷的AI就业冲击——从一篇极其精彩的哈佛论文聊起</a> [9] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3755810" target="_blank" class="news-link">直击Meta Connect大会：AI智能眼镜矩阵升级，手势控制+内置屏幕眼镜售价799美元</a> [13] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1160121" target="_blank" class="news-link">收集汇总了一套 AI 宠物写真提示词</a> [14] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45283196" target="_blank" class="news-link">Stepping Down as Libxml2 Maintainer</a> [14] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1160120" target="_blank" class="news-link">202509 目前在 jetbrains 的 ide 下最好用的 ai agent 插件是什么</a> [15] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250918134511171800" target="_blank" class="news-link">日本内阁官房长官林芳正：日本的消费税是用于资助社会保障费用的重要收入来源。</a> [16] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1160100" target="_blank" class="news-link">Pet Emoji Generator - AI 宠物表情包生成器，一键把你的宠物变成 9 宫格表情包</a> [19] <font color='grey'>- 14时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">早报 午报 看点 人民日报 财联社 数据看盘 焦点复盘</td>
+                <td class="count">1</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3755805" target="_blank" class="news-link">9月18日会员早报：美联储如期降息25个基点 特朗普“内应”支持降息50个基点</a> [24] <font color='grey'>- 14时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
