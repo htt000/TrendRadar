@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2025-09-24 14:15:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">14</td>
+                <td class="percentage">14.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41957725" target="_blank" class="news-link">甲骨文：AI泡沫？我不担心！Altman：需要“更多更多算力”！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3756164" target="_blank" class="news-link">阿里抛出了个更庞大的AI故事</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1161478" target="_blank" class="news-link">一个极简的 AI 翻译工具，支持自定义 API 服务商与 prompt</a> [6] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3756160" target="_blank" class="news-link">德银“万人调研”：对于AI冲击岗位，年轻人焦虑远超年长同事</a> [7] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1161457" target="_blank" class="news-link">历经 4 个月，基于 Tiptap 和 NestJs 打造一款 AI 驱动的智能文档协作平台</a> [10] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/premium/articles/3756096?layout=wscn-layout" target="_blank" class="news-link">从全要素生产率看AI技术争霸，老登眼中的“算力时代”【付鹏说5】</a> [10] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3756155" target="_blank" class="news-link">“钱实在太多”！英伟达无处可投，相比回购，不如选择“让AI闭环”</a> [11] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/HKUDS/AI-Researcher" target="_blank" class="news-link">HKUDS / AI-Researcher</a> [12]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3756151" target="_blank" class="news-link">华为发布全新芯片之后，国产AI芯片面对的三个关键问题</a> [14] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45354262" target="_blank" class="news-link">NYC Telecom Raid: What&#x27;s Up with Those Weird SIM Banks?</a> [15] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45356226" target="_blank" class="news-link">Greatest irony of the AI age: Humans hired to clean AI slop</a> [17] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/smartcontractkit/chainlink" target="_blank" class="news-link">smartcontractkit / chainlink</a> [17]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3756147" target="_blank" class="news-link">云栖大会今开幕，阿里云将展示超大规模集群、分布式训练、推理加速等能力，首次展出高密度AI服务器和高性能网络架构</a> [19] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45355806" target="_blank" class="news-link">America&#x27;s top companies keep talking about AI – but can&#x27;t explain the upsides</a> [20] <font color='grey'>- 14时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
