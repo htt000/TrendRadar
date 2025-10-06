@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 48</p><p>生成时间: 2025-10-07 04:10:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">9</td>
+                <td class="percentage">18.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3756728" target="_blank" class="news-link">未上市却搅动股市：OpenAI已成美股“隐形巨头”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3756727" target="_blank" class="news-link">ChatGPT每周用户达8亿，OpenAI开发者大会派礼包，助力打造App和AI智能体</a> [7] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007032215206800" target="_blank" class="news-link">OpenAI“点金效应”持续扩散 合作企业股价集体上涨</a> [7] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007030357630800" target="_blank" class="news-link">OpenAI推出小型语音模型GPT-5 Pro</a> [10] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007024551369800" target="_blank" class="news-link">OpenAI首席运营官：数千万用户正在为ChatGPT付费。</a> [15] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007023633123800" target="_blank" class="news-link">OpenAI首席执行官奥尔特曼：人工智能有许多领域都还处于泡沫阶段，我认为这就是新技术革命的常态。</a> [17] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007023119169800" target="_blank" class="news-link">OpenAI首席执行官：ChatGPT每周用户达8亿</a> [20] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45493432" target="_blank" class="news-link">OpenAI DevDay 2025: Opening keynote [video]</a> [21] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007021457678800" target="_blank" class="news-link">OpenAI推出应用互联功能 用户可在ChatGPT内操作Spotify等第三方服务</a> [25] <font color='grey'>- 04时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">早报 午报 看点 人民日报 财联社 数据看盘 焦点复盘</td>
+                <td class="count">1</td>
+                <td class="percentage">2.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3756731" target="_blank" class="news-link">10月7日会员早报：美国政府关门进入第二周 越南三季度GDP暴涨</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
