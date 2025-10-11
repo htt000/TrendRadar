@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 170</p><p>生成时间: 2025-10-12 00:10:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">18</td>
+                <td class="percentage">10.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41957807" target="_blank" class="news-link">美国政坛大佬：AI可能摧毁美国工薪阶层，最富有的人却更富</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45546593" target="_blank" class="news-link">AMD and Sony&#x27;s PS6 chipset aims to rethink the current graphics pipeline</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3757015" target="_blank" class="news-link">别再只看英伟达！7天内AI风向突变：最大机会竟在传统行业？【王紫敬大师课6.1】</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/supermemoryai/supermemory" target="_blank" class="news-link">supermemoryai / supermemory</a> [7] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164525" target="_blank" class="news-link">还有啥 AI 方向可以做的业务不 讨论讨论~</a> [8] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757013" target="_blank" class="news-link">软银要借50亿美元，以ARM股份抵押，投资OpenAI</a> [8] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3756998" target="_blank" class="news-link">马斯克给出“AI能源”解决方案：电网夜间储能、白天放电，将使美国电力产出翻倍</a> [9] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757009" target="_blank" class="news-link">AI引爆美国电力需求，燃气轮机成“关键瓶颈”，GE Vernova、西门子能源和三菱重工“三巨头”面临抉择</a> [11] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757011" target="_blank" class="news-link">vivo交出AI战略新答卷</a> [12] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164459" target="_blank" class="news-link">All-in-One AI Tarot Platform</a> [17] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164437" target="_blank" class="news-link">淘宝居然也做这种批量 ai 生成的垃圾内容农村 seo 吗</a> [18] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3756998" target="_blank" class="news-link">马斯克给出“AI能源”解决方案：电网夜间储能、白天放电，将使美国电力产出翻倍</a> [19] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164392" target="_blank" class="news-link">Mesh AI — 用 AI 打开 3D 创作新世界</a> [22] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45513355" target="_blank" class="news-link">Intelligent Search in Rails with Typesense</a> [22] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164375" target="_blank" class="news-link">最近总想着压榨 AI 干活，感觉这样的心态要不得</a> [25] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164360" target="_blank" class="news-link">Jetbrains 终端启用 codex，按 Backspace 键或空格键会吞中文字符，各位有遇到吗，很苦恼</a> [26] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164300" target="_blank" class="news-link">领导让我做一个 AI 自动化测试接口的智能体...</a> [27] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45479694" target="_blank" class="news-link">Lánczos Interpolation Explained (2022)</a> [29] <font color='grey'>- 00时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
