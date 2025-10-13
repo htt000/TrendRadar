@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 171</p><p>生成时间: 2025-10-14 00:11:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">19</td>
+                <td class="percentage">11.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45567770" target="_blank" class="news-link">Show HN: SQLite Online – 11 years of solo development, 11K daily users</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757112" target="_blank" class="news-link">eSIM手机来了！苹果iPhone Air定于10月22日发售，三大运营商均支持</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Klavis-AI/klavis" target="_blank" class="news-link">Klavis-AI / klavis</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164946" target="_blank" class="news-link">朋友和我说人工智能的泡沫会在两个星期后破灭</a> [7] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3757070" target="_blank" class="news-link">高盛大幅上调阿里未来三年资本开支预测至4600亿：云业务国际化被低估，AI支出转化正重塑增长！</a> [7] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757107" target="_blank" class="news-link">OpenAI再签重磅协议：计划未来四年与博通合作部署10千兆瓦定制化芯片和网络设备</a> [7] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757105" target="_blank" class="news-link">燃料电池成AI供电新宠？Bloom Energy与Brookfield达成50亿美元数据中心供电项目</a> [9] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45568955" target="_blank" class="news-link">AI and the Future of American Politics</a> [13] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164876" target="_blank" class="news-link">想知道 Tailscale 在中国的可用性</a> [14] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45516230" target="_blank" class="news-link">A $6B Nuclear U.S. Navy Aircraft Carrier &#x27;Sunk&#x27; by $100M Diesel &#x27;AIP&#x27; Sub</a> [14] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/dair-ai/Prompt-Engineering-Guide" target="_blank" class="news-link">dair-ai / Prompt-Engineering-Guide</a> [14] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013234109189800" target="_blank" class="news-link">Stifel：美国消费者仍认为外出就餐太贵 餐饮业低迷或持续</a> [14] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164872" target="_blank" class="news-link">独立开发三个月，复盘做 AI 视频生成工具站的踩过的坑。</a> [16] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3757063" target="_blank" class="news-link">顶层路线图曝光！中国AI进入“国家队主导”新阶段，影响未来10年【王紫敬大师课6.2】</a> [16] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164856" target="_blank" class="news-link">我做了一款 Excel AI 智能体，让 AI 来做 Excel, 再也不用去查公式了</a> [18] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164826" target="_blank" class="news-link">TalkReplay：把你的 AI 对话，变成可复盘、可分享的生产力</a> [24] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45568555" target="_blank" class="news-link">The Peach meme: On CRTs, pixels and signal quality (again)</a> [27] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164811" target="_blank" class="news-link">aihot.today： AI 世界每天都在变，这里帮你追上它</a> [28] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164803" target="_blank" class="news-link">这两天突发奇想整了下车控的 APP</a> [29] <font color='grey'>- 00时11分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
