@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 174</p><p>生成时间: 2025-10-16 00:10:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">19</td>
+                <td class="percentage">10.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757250" target="_blank" class="news-link">贝莱德、英伟达、xAI 和微软组成财团，斥资400亿美元收购数据中心巨头Aligned</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/langchain-ai/langchainjs" target="_blank" class="news-link">langchain-ai / langchainjs</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1165894" target="_blank" class="news-link">[分享] AI 真的太屌了， 1 天时间用 AI 做的网站，用 AI 自动生成涂色页的网站： ColorMinds.fun</a> [7] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45591222" target="_blank" class="news-link">Show HN: Scriber Pro – Offline AI transcription for macOS</a> [9] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1165883" target="_blank" class="news-link">对话 MoonBit 张宏波：为 AI 重构编程语言</a> [10] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3757182" target="_blank" class="news-link">谷歌在印度南部砸下150亿美元建数据中心，打造美国之外最大AI枢纽</a> [10] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/DigitalPlatDev/FreeDomain" target="_blank" class="news-link">DigitalPlatDev / FreeDomain</a> [11] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757246" target="_blank" class="news-link">零营收但估值超260亿美元？最严重的AI泡沫其实在能源股！</a> [11] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1165836" target="_blank" class="news-link">标签页、书签太多找不到？ AI 分组 + 拼音模糊搜索，开源插件秒解切换难题！</a> [12] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757245" target="_blank" class="news-link">李强主持国务院第十六次专题学习：强化人工智能等数字技术赋能，系统推进标准制定修订</a> [12] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/alibaba/spring-ai-alibaba" target="_blank" class="news-link">alibaba / spring-ai-alibaba</a> [13] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757228" target="_blank" class="news-link">“看，皇帝没穿衣服”！对冲基金经理：万亿美元的AI投入，赚得回来吗？</a> [13] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45591082" target="_blank" class="news-link">Helpcare AI (YC F24) Is Hiring</a> [14] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/dair-ai/Prompt-Engineering-Guide" target="_blank" class="news-link">dair-ai / Prompt-Engineering-Guide</a> [14] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757243" target="_blank" class="news-link">今年收益43%，东吴基金陈伟斌：贸易摩擦是情绪扰动，市场短期获利调整，整体机会大于风险，把握AI、创新药两条主线</a> [15] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1165766" target="_blank" class="news-link">[Printer AI MCP] 打印机行业相关，写了一个打印机的 MCP 服务，给 AI 提供调用本地打印机功能</a> [16] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757232" target="_blank" class="news-link">OpenAI“下一个五年规划”：新收入、新融资、新硬件支撑万亿美元算力支出承诺？</a> [24] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757236" target="_blank" class="news-link">“AI基建潮”蔓延至欧洲，微软签订140亿美元“欧洲AI云大单”，租赁11.6万块英伟达GB300 GPU</a> [25] <font color='grey'>- 00时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757231" target="_blank" class="news-link">黄仁勋亲述“英伟达创业史”：1993年的洞见，2012年的突破，未来的AI</a> [27] <font color='grey'>- 00时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
