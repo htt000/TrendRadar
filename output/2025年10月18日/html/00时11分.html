@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 172</p><p>生成时间: 2025-10-18 00:11:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">19</td>
+                <td class="percentage">11.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757400" target="_blank" class="news-link">帮助Altman重掌OpenAI，一文读懂美国最火科技投资者之一——Joshua Kushner和他的Thrive Capital</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/stamparm/maltrail" target="_blank" class="news-link">stamparm / maltrail</a> [7] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45617475" target="_blank" class="news-link">Endorsing easily disproven claims linked to prioritizing symbolic strength</a> [8] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757399" target="_blank" class="news-link">今年收益90%，闫思倩：A股将延续慢牛，更看好科技主线，AI时代刚刚开始，明年机器人会有简单的应用场景</a> [10] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017225705378800" target="_blank" class="news-link">墨西哥总统辛鲍姆：汽水税旨在减少消费，而非增加收入。</a> [11] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1166447" target="_blank" class="news-link">避雷 aicodemirror</a> [12] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45615449" target="_blank" class="news-link">Email Bombs Exploit Lax Authentication in Zendesk</a> [12] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1166425" target="_blank" class="news-link">喜欢某个网页样式，如何复制样式直接交给 AI，让它变成自己的界面</a> [16] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017223547959800" target="_blank" class="news-link">高盛组建全球基础设施融资团队 押注AI与能源转型机遇</a> [16] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017223434821800" target="_blank" class="news-link">据华尔街日报：高盛正在扩大基础设施融资业务，组建全新团队，专注于数据中心及其他人工智能基础设施。</a> [17] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1166420" target="_blank" class="news-link">大家每个月花在 ai 上的钱大概有多少</a> [18] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45612987" target="_blank" class="news-link">Next steps for BPF support in the GNU toolchain</a> [19] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45542245" target="_blank" class="news-link">Trap the Critters with Paint</a> [20] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45613667" target="_blank" class="news-link">New computer model helps reveal how the brain both adapts and misfires</a> [21] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757386" target="_blank" class="news-link">马斯克的“财技”：财力窘迫的xAI，如何为“世界最强算力集群+大型天然气发电厂”融资</a> [22] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45555709" target="_blank" class="news-link">A 4k-Room Text Adventure Written by One Human in QBasic No AI</a> [23] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757388" target="_blank" class="news-link">坐视OpenAI扶持甲骨文，“老奸巨猾”的微软在想什么？</a> [23] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3757387" target="_blank" class="news-link">AI时代的Alpha怎么找？客户结构+商业模式+竞争壁垒筛出真正赢家【王紫敬大师课7.3】</a> [24] <font color='grey'>- 00时11分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1166363" target="_blank" class="news-link">可能污染了某个国内公司的 AI 语料库？</a> [26] <font color='grey'>- 00时11分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
