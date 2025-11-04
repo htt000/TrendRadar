@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 91</p><p>生成时间: 2025-11-04 14:16:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">11</td>
+                <td class="percentage">12.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1170413" target="_blank" class="news-link">我也没想到一个 AI 写的开源项目意外被多个公众号和自媒体推荐</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45807542" target="_blank" class="news-link">Why AC is cheap, but AC repair is a luxury</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1170384" target="_blank" class="news-link">阿里云主页自动跳国际版 AI 活动页(离普)</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1170377" target="_blank" class="news-link">用 ai 给 mosdns 加了个 ui</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3758618" target="_blank" class="news-link">押注AI！对冲基金大佬Dan Loeb看中这两只股票，并继续持有台积电和英伟达</a> [10] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3758607" target="_blank" class="news-link">当微软CEO说“电力不足可能导致芯片堆积”时，他和Altman都不知道AI究竟需要多少电</a> [11] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3758616" target="_blank" class="news-link">华安许瀚天：AI大潮核心矛盾是“商业模式待解”，重点关注芯片两大主线</a> [15] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1170324" target="_blank" class="news-link">最近被 AI 生成前端的工具震撼到了，分享一个案例</a> [17] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45796421" target="_blank" class="news-link">First recording of a dying human brain shows waves similar to memory flashbacks (2022)</a> [21] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3758602" target="_blank" class="news-link">Palantir电话会：AI带来“非凡增长”、“40法则”罕见破百，CEO炮轰华尔街“我们交出软件公司史上最佳业绩，而你们一直看错”！</a> [24] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3758603" target="_blank" class="news-link">Cipher Mining、Iren飙升，币圈“血流成河”之际，比特币矿商却“因AI暴涨”</a> [25] <font color='grey'>- 14时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
