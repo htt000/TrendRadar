@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 93</p><p>生成时间: 2025-11-19 14:15:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">20</td>
+                <td class="percentage">21.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958059" target="_blank" class="news-link">AI泡沫破裂，无人可以幸免--谷歌CEO也承认</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759682" target="_blank" class="news-link">ChatGPT后最重要的AI应用！“网购Agent”大时代即将到来，谁是赢家，谁是输家？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759684" target="_blank" class="news-link">AI泡沫的“核心争议”：GPU真的能“用”6年吗？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3759657" target="_blank" class="news-link">谷歌最强大AI模型来了！Gemini 3发布首日即投入搜索、App和开发者平台同步上线</a> [6] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958058" target="_blank" class="news-link">Gemini 3来了！没有悬念的最强AI</a> [6]</div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3759673" target="_blank" class="news-link">Gemini 3的意义：AI已超越“幻觉阶段”，逼近人类，“人机协作”将从“人对AI纠错”走向“人指导AI工作”</a> [7] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1173697" target="_blank" class="news-link">开源软件 ShowDoc 新版发布，支持 AI 知识库助手</a> [9] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3759654" target="_blank" class="news-link">“AI闭环”扩大：英伟达、微软联手150亿美元投资Anthropic，“OpenAI对手”的估值已达3500亿美元</a> [10] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958056" target="_blank" class="news-link">你以为AI来抢你工作？实际上，AI可能还监督你工作</a> [14] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1173632" target="_blank" class="news-link">写一个最近做 AI 的感受</a> [17] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45926141" target="_blank" class="news-link">What I learned about creativity from a man painting on a treadmill (2024)</a> [18] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759669" target="_blank" class="news-link">Hugging Face CEO：我们身处“大模型泡沫”，而非“AI泡沫”，且这个泡沫即将破裂</a> [18] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251119121305471800" target="_blank" class="news-link">华尔街日报：xAI正就融资150亿美元深入谈判 估值显著提升</a> [19] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759670" target="_blank" class="news-link">摧毁AI牛市的“罪魁祸首”：“最弱一环”甲骨文</a> [20] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251119120532267800" target="_blank" class="news-link">据华尔街日报：消息人士称，xAI正与投资者进行高级别谈判，以筹集150亿美元，此轮融资将使xAI的估值达到2300亿美元。</a> [21] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45972390" target="_blank" class="news-link">Bild AI (YC W25) is hiring – Make housing affordable</a> [23]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759673" target="_blank" class="news-link">Gemini 3的意义：AI已超越“幻觉阶段”，逼近人类，“人机协作”将从“人对AI纠错”走向“人指导AI工作”</a> [23] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251119120257616800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2025-11-19）</a> [23] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958054" target="_blank" class="news-link">五年内，最火的三个“文科岗位”会被AI替代</a> [24] <font color='grey'>- 14时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759654" target="_blank" class="news-link">“AI闭环”扩大：英伟达、微软联手150亿美元投资Anthropic，“OpenAI对手”的估值已达3500亿美元</a> [26] <font color='grey'>- 14时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">早报 午报 看点 人民日报 财联社 数据看盘 焦点复盘</td>
+                <td class="count">1</td>
+                <td class="percentage">1.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759668" target="_blank" class="news-link">人民日报钟声：没有任何国家会容忍他国领导人对本国发出武力威胁，高市早苗给中日关系投的“毒”，必须由自己来解！</a> [27] <font color='grey'>- 14时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
