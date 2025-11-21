@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 127</p><p>生成时间: 2025-11-21 14:16:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">14</td>
+                <td class="percentage">11.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251121134910969800" target="_blank" class="news-link">鸿海董事长刘扬伟：与OpenAI的合作将从加州的一个实验室开始，随后可能扩展到俄亥俄州的制造业务。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251121134120644800" target="_blank" class="news-link">鸿海董事长刘扬伟：与OpenAI合作的一个关键原因是他们是最大的生成式AI用户且拥有丰富的经验，但他们也看到了当前数据中心架构的局限性。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174188" target="_blank" class="news-link">claude.ai 帐号被 ban， appeal 有成功的吗？有无解决办法，或替换方案？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251121133919252800" target="_blank" class="news-link">鸿海董事长刘扬伟：未提及与OpenAI成立合资企业或产量承诺，并不意味着未来不会发生。</a> [7] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174183" target="_blank" class="news-link">上线了一个 通过 AI 生成页面 + 在线预览 sketch 标注的平台，欢迎大家使用</a> [8] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174181" target="_blank" class="news-link">23-25 年算不算是 AI 超级军备竞赛的 3 年, 谁能想到才 3 年 LLM 的能力已经非常高了</a> [10] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3759838" target="_blank" class="news-link">强得离谱！实测Nano Banana Pro：甚至不想叫它AI，这是视觉层面的AGI！</a> [10] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759841" target="_blank" class="news-link">关注AI泡沫，别只盯着英伟达和甲骨文CDS，美国万亿“私募信贷”正在爆大雷</a> [11] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174145" target="_blank" class="news-link">10 分钟在 Vercel 部署属于你自己的开源 AI 股票机器人</a> [14] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759846" target="_blank" class="news-link">林园年末最新“提醒”：AI迟早会走向竞争加剧，现在更看好食品、消费和沪深300</a> [21] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45991738" target="_blank" class="news-link">Adversarial poetry as a universal single-turn jailbreak mechanism in LLMs</a> [24] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759838" target="_blank" class="news-link">强得离谱！实测Nano Banana Pro：甚至不想叫它AI，这是视觉层面的AGI！</a> [27] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3759836" target="_blank" class="news-link">鸿海与OpenAI合作，将共同设计数据中心的硬件</a> [28] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3759835" target="_blank" class="news-link">OpenAI神话正在破裂 AI行业开始进入残酷的消耗战周期</a> [29] <font color='grey'>- 14时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
