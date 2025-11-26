@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 195</p><p>生成时间: 2025-11-27 00:12:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">18</td>
+                <td class="percentage">9.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3760086" target="_blank" class="news-link">宽松预期与俄乌协议利好，道指8月来最大单日涨幅，“谷歌涨、英伟达跌”分化AI交易，10年期美债跌破4%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46058065" target="_blank" class="news-link">OpenAI needs to raise at least $207B by 2030 so it can continue to lose money</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46055944" target="_blank" class="news-link">I don&#x27;t care how well your &quot;AI&quot; works</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3760117" target="_blank" class="news-link">英伟达大跌后罕见安抚市场：我司GPU比谷歌AI芯片领先一代</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3760166" target="_blank" class="news-link">暴跌40%！软银成为“OpenAI链”风向标</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760188" target="_blank" class="news-link">理想电话会：李想宣布回归创业模式押注具身智能，2026年交付自研M100芯片AI系统</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46058361" target="_blank" class="news-link">MIT study finds AI can replace 11.7% of U.S. workforce</a> [6] <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3760129" target="_blank" class="news-link">阿里财报后为何“高开低走”？高盛：AI和云业务超预期，但电话会“短期波动”说法加剧电商忧虑</a> [6] <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3760114" target="_blank" class="news-link">一则消息引爆市场，AI竞争格局生变！英伟达盘中重挫7%，谷歌再创新高</a> [9] <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760192" target="_blank" class="news-link">关税阴影笼罩，美国消费者“黑五”转向囤积生活必需品</a> [9] <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46057304" target="_blank" class="news-link">I DM&#x27;d a Korean Presidential Candidate and Ended Up Building His Core Campaign</a> [10] <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/GibsonAI/Memori" target="_blank" class="news-link">GibsonAI / Memori</a> [10] <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/microsoft/call-center-ai" target="_blank" class="news-link">microsoft / call-center-ai</a> [12] <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760171" target="_blank" class="news-link">华尔街“最乐观多头”摩根大通：AI超级周期驱动，标普500指数2026年有望冲破8000点</a> [13] <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760180" target="_blank" class="news-link">a16z前合伙人重磅科技报告：AI如何吞噬世界</a> [18] <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46045085" target="_blank" class="news-link">Trillions spent and big software projects are still failing</a> [19] <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760179" target="_blank" class="news-link">AI芯片垄断地位动摇？英伟达股价月内下跌14%，市值蒸发超7000亿美元</a> [20] <font color='grey'>- 00时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3760168" target="_blank" class="news-link">工信部等六部门：有序发展直播电商、即时零售等新业态，推动人工智能在消费品全行业全领域全过程应用</a> [27] <font color='grey'>- 00时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">早报 午报 看点 人民日报 财联社 数据看盘 焦点复盘</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126233041386800" target="_blank" class="news-link">金十数据整理：美国当周EIA库存数据六大看点一览</a> [6] <font color='grey'>- 00时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
