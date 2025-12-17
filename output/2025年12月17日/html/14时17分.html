@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 137</p><p>生成时间: 2025-12-17 14:17:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">15</td>
+                <td class="percentage">10.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46294574" target="_blank" class="news-link">AI will make formal verification go mainstream</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179457" target="_blank" class="news-link">OpenAI 最新图片模型 GPT-image-1.5 已经发布，快来 gptimage1-5.io 免费体验吧</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761545" target="_blank" class="news-link">何小鹏：当前没有AI泡沫，未来AI的市场有着巨大机遇</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179453" target="_blank" class="news-link">⚡ 需求分析效率提升 183%！首个为 AI 编程时代设计的团队协作 MCP 开源啦！ AI 一键阅读蓝湖文档。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179452" target="_blank" class="news-link">Agent 开发实践：我撸了个交互式 AI 问题解决可视化助手（附完整开发实录）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/%E9%9D%A2%E5%AF%B9ai%E5%92%8C%E8%A3%81%E5%91%98%E5%A8%81%E8%83%81-%E7%BE%8E%E5%9B%BD%E7%99%BD%E9%A2%86%E6%AD%A3%E6%8B%BC%E5%91%BD%E4%BF%9D%E4%BD%8F%E5%B7%A5%E4%BD%9C-b0a6deda" target="_blank" class="news-link">面对AI和裁员威胁，美国白领正拼命保住工作</a> [7] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46295268" target="_blank" class="news-link">No AI* Here – A Response to Mozilla&#x27;s Next Chapter</a> [9] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179436" target="_blank" class="news-link">你愿意阅读同事用 AI 生成的代码吗?</a> [11] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761534" target="_blank" class="news-link">小米突发新模型，主打“极致性价比”，罗福莉：“这只是我们AGI图线路上的第二步”</a> [11] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46296926" target="_blank" class="news-link">Sei AI (YC W22) Is Hiring</a> [16] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761527" target="_blank" class="news-link">速度压倒准确性？OpenAI撤回ChatGPT“模型路由器”功能，响应迟缓引发用户流失</a> [16] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46294592" target="_blank" class="news-link">Chat-tails: Throwback terminal chat, built on Tailscale</a> [26] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179363" target="_blank" class="news-link">米哈游蔡浩宇的带性格的 ai 聊天产品 anuneko</a> [27] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46288453" target="_blank" class="news-link">Show HN: TheAuditor v2.0 – A “Flight Computer” for AI Coding Agents</a> [29] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179354" target="_blank" class="news-link">新手问问大佬们， AI IDE 或 大模型数据安全问题</a> [30] <font color='grey'>- 14时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
