@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2025-12-18 14:17:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">10</td>
+                <td class="percentage">8.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179693" target="_blank" class="news-link">一天上线「图像标记」功能： AI 让我这个前端小白也能做复杂交互</a> [8] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46309124" target="_blank" class="news-link">More than half of researchers now use AI for peer review, often against guidance</a> [8] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3761607" target="_blank" class="news-link">AI新子弹要来了！报道称OpenAI正探讨“数百亿甚至1000亿美元融资”</a> [8] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761619" target="_blank" class="news-link">最牛的AI股在印度</a> [8] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1179687" target="_blank" class="news-link">用 AI 做了一个免费的英语练习工具</a> [10] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761607" target="_blank" class="news-link">AI新子弹要来了！报道称OpenAI正探讨“数百亿甚至1000亿美元融资”</a> [17] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958257" target="_blank" class="news-link">不只是股市，AI已是美国债市“核心动力”</a> [18] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958256" target="_blank" class="news-link">AI和人类的本质区别：一次性产品、出厂即定型</a> [19] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46309039" target="_blank" class="news-link">Mozilla&#x27;s New CEO Confirms Firefox Will Become an &quot;AI Browser&quot;</a> [25] <font color='grey'>- 14时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761602" target="_blank" class="news-link">亚马逊重组AI团队，发力大模型、芯片和量子计算研究，CEO称“公司进入转折点”</a> [25] <font color='grey'>- 14时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">早报 午报 看点 人民日报 财联社 数据看盘 焦点复盘</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3761601" target="_blank" class="news-link">12月18日会员早报：华纳拒绝派拉蒙敌意收购 谷歌Gemini发布新品</a> [26] <font color='grey'>- 14时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
