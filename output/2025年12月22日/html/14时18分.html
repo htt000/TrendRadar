@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 118</p><p>生成时间: 2025-12-22 14:18:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">15</td>
+                <td class="percentage">12.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1180363" target="_blank" class="news-link">AI PPT 似乎很一般</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761826" target="_blank" class="news-link">两年不到“计算利润率”从35%翻倍至70%，OpenAI“其实可以很赚钱”？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1180349" target="_blank" class="news-link">搭建与企业业务深度集成的企业智能体，用 langchain 还是 agno</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761818" target="_blank" class="news-link">数万亿美元投资、成千上万新玩家--AI数据中心已成一场关乎全球经济命运的“新淘金”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761823" target="_blank" class="news-link">AI大模型独角兽招股书深度拆解：MiniMax to C，智谱 to B</a> [6] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3761792" target="_blank" class="news-link">“AI取代搜索”是伪命题？市场发现：谷歌才是对的！</a> [10] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761816" target="_blank" class="news-link">AI存储新周期：NAND的攻城与HDD的守疆</a> [14] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1180291" target="_blank" class="news-link">AI 赛事通 - 2025 年 12 月 AI 竞赛和黑客松汇总合集</a> [15] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46322631" target="_blank" class="news-link">Evaluating chain-of-thought monitorability</a> [15] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20251222_06/" target="_blank" class="news-link">日本拟5年投资1万亿日元支援国产AI研发</a> [15] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3761805" target="_blank" class="news-link">黄仁勋“密会”的中国AI独角兽：MiniMax的上市突围</a> [17] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251222131626437800" target="_blank" class="news-link">印度民航部：已注意到印度航空AI-887航班在起飞后不久因技术问题发生的事件。</a> [17] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46346214" target="_blank" class="news-link">Autoland saves King Air, everyone reported safe</a> [21] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/teenage-founders-502cf69e" target="_blank" class="news-link">AI创业低龄化：这些青少年已经在运营自己的AI公司</a> [22] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20251222-7999118" target="_blank" class="news-link">需求疲软拖累 中国消费股连跌创纪录</a> [29] <font color='grey'>- 14时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
