@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 187</p><p>生成时间: 2025-12-26 00:13:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">19</td>
+                <td class="percentage">10.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/cybercut/launches/cybercut-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">CyberCut AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/planeat-ai-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">PlanEat AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181232" target="_blank" class="news-link">AI 命理量化推演系统：从底层算法到 Prompt 指令，打造你的私人运势专家（附完整文档与实战案例）V1.0.0</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/resemble-ai/chatterbox" target="_blank" class="news-link">resemble-ai / chatterbox</a> [6] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181216" target="_blank" class="news-link">我做了个工具可以可视化加 AI 辅助录制网站操作，真的不要再手写一行爬虫代码啦</a> [9] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762090" target="_blank" class="news-link">三星电子拟于2027年首次在应用处理器中搭载自研GPU，加速端侧AI布局</a> [9] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/documentation-ai/launches/documentation-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Documentation.AI</a> [10] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3762036" target="_blank" class="news-link">OpenAI的“广告模式”已初具雏形</a> [10] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181206" target="_blank" class="news-link">开源了一个通过 AI 自动识别验证码的 Chrome 扩展</a> [11] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://chinese.aljazeera.net/economy/2025/12/25/%e6%9c%80%e5%a4%a7%e4%ba%a4%e6%98%93%e8%8b%b1%e4%bc%9f%e8%be%be%e4%bb%a5200%e4%ba%bf%e7%be%8e%e5%85%83%e6%94%b6%e8%b4%ad%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e5%85%ac%e5%8f%b8groq" target="_blank" class="news-link">最大交易：英伟达以200亿美元收购人工智能公司Groq</a> [11] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762080" target="_blank" class="news-link">神农投资陈宇：明年AI应用是2006年的房地产，创新药只是二十年大牛市的开始</a> [15] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46380399" target="_blank" class="news-link">Asterisk AI Voice Agent</a> [18] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762078" target="_blank" class="news-link">当“养老钱”遇上“AI热”：全球养老基金大举押注数据中心基建有什么风险？</a> [18] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762073" target="_blank" class="news-link">金山办公朱熠锷：从“看到”到“掌握”：AI应用进入“知识增强生成”时代｜Alpha峰会</a> [21] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181145" target="_blank" class="news-link">OpenAI 意外之喜</a> [22] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46377597" target="_blank" class="news-link">Show HN: Vibium – Browser automation for AI and humans, by Selenium&#x27;s creator</a> [22] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1181144" target="_blank" class="news-link">有人测试过 google ai pro 在 gemini-cli 每天可以多少次请求吗</a> [24] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762070" target="_blank" class="news-link">中金：供给侧促消费的路径</a> [28] <font color='grey'>- 00时13分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46380953" target="_blank" class="news-link">The next-gen mainboard designed with amigaos4 and morphos in mind</a> [30] <font color='grey'>- 00时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
