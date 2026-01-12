@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 134</p><p>生成时间: 2026-01-12 14:21:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">15</td>
+                <td class="percentage">11.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1184862" target="_blank" class="news-link">未来是不是程序员能力要求更低了 [使用 Manus AI 使用后感]</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://china.hani.co.kr/arti/politics/16364.html" target="_blank" class="news-link">突发无人机事件……李在明政府 “先发制人和平” 政策面临考验</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1184847" target="_blank" class="news-link">国漫的这种 AI 绘图用的什么工具？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958403" target="_blank" class="news-link">1月28日投资者必看！AI泡沫会崩吗？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1184843" target="_blank" class="news-link">时代在进步， AI 的发展人力不可抗拒</a> [6] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3763073" target="_blank" class="news-link">Minimax引爆GEO：AI应用逻辑突变，传媒底层价值的范式转移</a> [6] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1184842" target="_blank" class="news-link">AI 和 Agent 时代，技术栈选型大佬们有什么建议？</a> [7] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763072" target="_blank" class="news-link">AI宠物玩具狂潮来了</a> [9] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763066" target="_blank" class="news-link">这波AI企业上市潮背后，真正要关注的是上海国资</a> [14] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763067" target="_blank" class="news-link">兵家必争之地！OpenAI和Anthropic之后，苹果也进军“医疗健康”</a> [16] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1184795" target="_blank" class="news-link">做了一个图片处理网站，部分使用了 AI 功能</a> [17] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260112123727337800" target="_blank" class="news-link">谷歌联合沃尔玛等零售商扩展AI模型购物功能</a> [21] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/training-ai-job-seekers-contractors-6e14d69b" target="_blank" class="news-link">白领的新就业选择：训练AI干自己的活</a> [26] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763059" target="_blank" class="news-link">备受关注的“AI商业模式”：谷歌率先在Gemini中引入广告</a> [26] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260112123157179800" target="_blank" class="news-link">野村证券：AI网络设备供应商或迎持续强劲需求</a> [28] <font color='grey'>- 14时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
