@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 189</p><p>生成时间: 2026-01-13 00:15:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">22</td>
+                <td class="percentage">11.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/planeat-ai-2/launches/planeat-ai-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">PlanEat AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763085" target="_blank" class="news-link">新“易中天”横空出世！改写“AI时代广告营销的底层逻辑”：GEO</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763115" target="_blank" class="news-link">苹果选择Gemini驱动今年将面世的AI版Siri，谷歌市值盘中首破4万亿</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763068" target="_blank" class="news-link">A股成交额再创新高！沪指豪取17连阳，AI应用、商业航天大爆发，港股智谱狂飙30%，沪银涨超14%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185042" target="_blank" class="news-link">关于 AI Java 编程</a> [7] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763059" target="_blank" class="news-link">备受关注的“AI商业模式”：谷歌率先在Gemini中引入广告</a> [8] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185038" target="_blank" class="news-link">写了一个 VS Code 插件：极简 AI 自动生成 Commit Message，支持自定义 OpenAI 兼容接口</a> [9] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46590280" target="_blank" class="news-link">TimeCapsuleLLM: LLM trained only on data from 1800-1875</a> [9] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185031" target="_blank" class="news-link">纯 AI 三天二次开发了一个 Markdown 在线编辑器</a> [11] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46585947" target="_blank" class="news-link">Ai, Japanese chimpanzee who counted and painted dies at 49</a> [12] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1185026" target="_blank" class="news-link">[开源短剧] AI 短剧创作工具</a> [14] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763096" target="_blank" class="news-link">高盛展望2026大中华区科技趋势：ASIC成AI服务器增量核心，光模块迈向1.6T，果链领跑智能手机.......</a> [16] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763068" target="_blank" class="news-link">A股成交额再创新高！沪指豪取17连阳，AI应用、商业航天大爆发，港股智谱狂飙30%，沪银涨超14%</a> [17] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763095" target="_blank" class="news-link">AI眼镜迈入独立智能终端时代，开始接管手机核心功能</a> [18] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/creaibo-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Creaibo</a> [20] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958405" target="_blank" class="news-link">SEO已死，GEO当立！新“易中天”引爆AI广告革命</a> [21] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260112232350979800" target="_blank" class="news-link">谷歌C(GOOG.O)短线上扬，现涨0.5%，苹果(AAPL.O)选择谷歌(GOOG.O)的Gemini来驱动今年推出的人工智能Siri。</a> [22] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1184976" target="_blank" class="news-link">发现了一些 AI 的学习资料</a> [23] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20260112-8088260" target="_blank" class="news-link">广东汕头突发山火 无人伤亡</a> [24] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958404" target="_blank" class="news-link">DeepSeek V4春节见？比OpenAI更强？</a> [24] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260112232041088800" target="_blank" class="news-link">苹果(AAPL.O)选择谷歌(GOOG.O)的Gemini来驱动今年推出的人工智能Siri。</a> [25] <font color='grey'>- 00时15分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1184928" target="_blank" class="news-link">分享自研 AI 宝宝跳舞工具： https://aibabydance.org/ - 上传照片 10 秒生成萌系舞蹈视频（求体验建议）</a> [29] <font color='grey'>- 00时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
