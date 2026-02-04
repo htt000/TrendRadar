@@ -1,0 +1,86 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 131</p><p>生成时间: 2026-02-05 00:35:49</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>kaopu</li><li>wallstreetcn-news</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">21</td>
+                <td class="percentage">16.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764882" target="_blank" class="news-link">美股爆发AI恐慌！Anthropic新工具掀软件股抛售，路透盘中跌超20%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764901" target="_blank" class="news-link">AI颠覆性冲击引发担忧，纳指跌0.16%，闪迪下挫超5%，AMD跌13%，金银短线跳水，现货黄金失守5000美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190816" target="_blank" class="news-link">大站挂了， 301 到 nanaimage.ai 了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/openai/skills" target="_blank" class="news-link">openai / skills</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190812" target="_blank" class="news-link">现在的 AI 工具是不是都有点过于复杂了？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/pandada-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Pandada AI</a> [6] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46882389" target="_blank" class="news-link">Show HN: Ghidra MCP Server – 110 tools for AI-assisted reverse engineering</a> [9] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764960" target="_blank" class="news-link">软件股大跌之际，黄仁勋驳斥“AI替代”论：这是世界上最不合逻辑的事</a> [10] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190791" target="_blank" class="news-link">开源书签管理系统 LiteMark 更新 融入 ai 功能</a> [11] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46844195" target="_blank" class="news-link">Procedures for Repair of Potholes in Asphalt-Surfaced Pavements</a> [11] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/vm0-ai/vm0" target="_blank" class="news-link">vm0-ai / vm0</a> [11] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190790" target="_blank" class="news-link">我用 AI 编程，为啥体感不好？正确的姿势是啥？</a> [12] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205000132711800" target="_blank" class="news-link">市场消息：人工智能芯片制造商Cerebras Systems以230亿美元的估值完成10亿美元的H轮融资。</a> [12] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260205000035019800" target="_blank" class="news-link">俄罗斯统计局：俄罗斯截至2月2日当周的消费者通胀率为0.20%，前一周为0.19%。</a> [13] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190779" target="_blank" class="news-link">AI Agent 经常脑补出不存在的包名然后自动安装，感觉供应链攻击风险很大，黑客可以抢注这些包名。为什么没有 AI IDE 能自动在执行前搜索对应包的创建时间、Git star 数、社区评价再安装？</a> [14] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190766" target="_blank" class="news-link">milkup：桌面端 markdown AI 续写和即时渲染</a> [16] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ada-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ChartGen AI</a> [17] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190759" target="_blank" class="news-link">AI 斩杀线</a> [18] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190744" target="_blank" class="news-link">请问 openai 的充值方式有哪些，好像国内 visa 卡绑定不了</a> [20] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46868998" target="_blank" class="news-link">X offices raided in France as UK opens fresh investigation into Grok</a> [23] <font color='grey'>- 00时35分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1190707" target="_blank" class="news-link">AI 都那么强了，传统的学校教育价值是不是大打折扣？</a> [30] <font color='grey'>- 00时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
