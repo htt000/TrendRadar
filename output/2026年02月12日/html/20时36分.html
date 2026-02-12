@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 61</p><p>生成时间: 2026-02-12 20:36:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">11</td>
+                <td class="percentage">18.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192539" target="_blank" class="news-link">做了个可以针对 JD 做分析和改简历的 AI 简历工具，求建议</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时36分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46987559" target="_blank" class="news-link">AI agent opens a PR write a blogpost to shames the maintainer who closes it</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时36分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/tambo-ai/tambo" target="_blank" class="news-link">tambo-ai / tambo</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765608" target="_blank" class="news-link">AI债务泡沫初现端倪？分析师警告：Alphabet发行百年期债券或为市场“见顶”信号</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时36分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/danielmiessler/Personal_AI_Infrastructure" target="_blank" class="news-link">danielmiessler / Personal_AI_Infrastructure</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765603" target="_blank" class="news-link">甲骨文的最悲观假设：若AI数据中心合同全部终止</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时36分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192523" target="_blank" class="news-link">Vibe Coding 了一个没有 AI 味的练习英语的网站</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时36分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/iOfficeAI/AionUi" target="_blank" class="news-link">iOfficeAI / AionUi</a> [6]</div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/unslothai/unsloth" target="_blank" class="news-link">unslothai / unsloth</a> [10]</div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765558" target="_blank" class="news-link">中国大模型“春节档”打响！等待消费级AI出“爆款”</a> [10]</div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20260212-%E8%B5%96%E6%80%BB%E7%BB%9F%E4%B8%93%E8%AE%BF-%E7%9B%BC%E5%8F%B0%E6%B9%BE%E6%AC%A7%E6%B4%B2%E5%8A%A0%E5%BC%BA%E5%9B%BD%E9%98%B2%E4%B8%8Eai%E5%90%88%E4%BD%9C" target="_blank" class="news-link">赖总统专访 盼台湾欧洲加强国防与AI合作</a> [20]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
