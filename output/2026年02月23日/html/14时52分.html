@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 110</p><p>生成时间: 2026-02-23 14:52:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">18</td>
+                <td class="percentage">16.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.bbc.com/zhongwen/articles/c0e5p0wzy57o/simp" target="_blank" class="news-link">特朗普关税变动后，企业与消费者面临不确定性</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193542" target="_blank" class="news-link">AI-Native 一人公司架构系列开源：从 DSL 到低成本 scaling</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765979" target="_blank" class="news-link">融入下一代PC生态体系，英伟达推出笔记本电脑芯片，重返消费级PC市场</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193535" target="_blank" class="news-link">代码如果不开源了 ai 编程是不是得吃屎了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765955" target="_blank" class="news-link">无视海外“AI恐慌”，中国市场狂炒AI赢家</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765976" target="_blank" class="news-link">来自“2028年6月的研究报告”：当AI超越预期，经济却崩了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47066446" target="_blank" class="news-link">How to train your program verifier</a> [6] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260223141159793800" target="_blank" class="news-link">韩国和巴西达成新协议 涵盖关键矿产和人工智能</a> [6] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47115805" target="_blank" class="news-link">Google restricting Google AI Pro/Ultra subscribers for using OpenClaw</a> [7] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765970" target="_blank" class="news-link">高盛评&quot;春晚机器人&quot;：硬件显著进步，推动应用普及，未来关键是底层AI</a> [7] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765976" target="_blank" class="news-link">来自“2028年6月的研究报告”：当AI超越预期，经济却崩了</a> [9] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47117169" target="_blank" class="news-link">Aqua: A CLI message tool for AI agents</a> [10] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47104251" target="_blank" class="news-link">Rhythms the Compendium: Life aboard an aircraft carrier (2021)</a> [13] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260223132332100800" target="_blank" class="news-link">马来西亚国家石油化学公司：印度和澳大利亚强劲的农业需求持续支撑化肥消费。</a> [13] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765965" target="_blank" class="news-link">春节消费：“马力”几成足？</a> [15] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260223125210171800" target="_blank" class="news-link">受惠于AI热潮 泰国出口创四年来最大增幅</a> [27] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47113731" target="_blank" class="news-link">NanoClaw moved from Apple Containers to Docker</a> [28] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47114235" target="_blank" class="news-link">Spain has blocked access to freedom.gov</a> [30] <font color='grey'>- 14时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">早报 午报 看点 人民日报 财联社 数据看盘 焦点复盘</td>
+                <td class="count">1</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3765962" target="_blank" class="news-link">2月23日会员早报：特朗普“威胁”15%全球关税 美国核心通胀超预期</a> [22] <font color='grey'>- 14时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
