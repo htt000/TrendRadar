@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 139</p><p>生成时间: 2026-02-26 14:44:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">18</td>
+                <td class="percentage">12.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.bbc.com/zhongwen/articles/crk8jrx52n7o/simp" target="_blank" class="news-link">我们需要对AI机器人保持礼貌吗？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3766208" target="_blank" class="news-link">英伟达电话会：黄仁勋高呼代理AI拐点已至，“推理即收入”，看好未来太空数据中心</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47108861" target="_blank" class="news-link">The Pleasures and Pains of Coffee (1830)</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47158975" target="_blank" class="news-link">How will OpenAI compete?</a> [7] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194204" target="_blank" class="news-link">做了一张 AI 录音卡（实体卡片），算是一次产品形态上的尝试（抽 1 张送）</a> [8] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47112299" target="_blank" class="news-link">Artist who “paints” portraits on glass by hitting it with a hammer</a> [10] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3766151" target="_blank" class="news-link">比Citrini更悲观：美国AI效率越进步，分配越失灵</a> [11] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194169" target="_blank" class="news-link">有大佬使用过 AI 来阅读项目代码来生成简历上的项目经验吗？</a> [14] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766221" target="_blank" class="news-link">高盛谈AI交易：“AI基建”的下半年风险，“AI应用”的“输家”短期难翻身</a> [14] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766226" target="_blank" class="news-link">AI叙事的三层转变</a> [15] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766225" target="_blank" class="news-link">英伟达“交卷”缓解AI担忧，日韩科技股走强，韩国股指再创新高，美元疲软</a> [16] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194147" target="_blank" class="news-link">[开源] 新 Agent Skill： deck —— 用 AI Agent 直接生成演示 Deck（HTML Slides / 现已支持导出 PPTX）</a> [18] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766218" target="_blank" class="news-link">拆解上万份财报后，大摩发现：遭抛售的“服务+周期”反而AI采用率最高、议价能力最强</a> [20] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47157841" target="_blank" class="news-link">An autopsy of AI-generated 3D slop</a> [21] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766213" target="_blank" class="news-link">股市“蜜糖”，债市“砒霜”？各国军工和AI开支飙升，推高全球债务至创纪录的348万亿美元</a> [21] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194124" target="_blank" class="news-link">关于 Ai Agent 框架-LangChain 优缺点及长期使用建议</a> [25] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61537-2026-02-26-09-28-43.html" target="_blank" class="news-link">日本将设3大支援基地提升AI半导体产业实力</a> [25] <font color='grey'>- 14时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766208" target="_blank" class="news-link">英伟达电话会：黄仁勋高呼代理AI拐点已至，“推理即收入”，看好未来太空数据中心</a> [25] <font color='grey'>- 14时44分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
