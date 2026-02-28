@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 119</p><p>生成时间: 2026-02-28 14:22:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">23</td>
+                <td class="percentage">19.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194803" target="_blank" class="news-link">Openframe Web：不用装客户端，浏览器里做 AI 漫剧（开源免费）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20260227_11/" target="_blank" class="news-link">OpenAI称有中国人士求ChatGPT支招抹黑高市</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766420" target="_blank" class="news-link">美国五角大楼“拉黑”AI巨头Anthropic，双方争议焦点：核战争</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766419" target="_blank" class="news-link">“AI音乐”明星初创公司SUNO付费用户3个月翻倍，达到2百万，年度ARR收入达3亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194797" target="_blank" class="news-link">公司的 AI 客服被真人干掉了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47189650" target="_blank" class="news-link">OpenAI agrees with Dept. of War to deploy models in their classified network</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3766357" target="_blank" class="news-link">“J.A.R.V.I.S.”时刻倒计时：科技巨头竞相入局智能硬件，“对话式AI”才是人工智能的终局？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766407" target="_blank" class="news-link">AI冲击之下，新一轮“次贷危机”来了？</a> [6] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228132543765800" target="_blank" class="news-link">AWS与OpenAI联合开发“有状态运行时环境”，预计数月内推出</a> [6] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194773" target="_blank" class="news-link">开源了一个 sketch 插件，可以通过对话的方式来让 AI 生成设计稿</a> [9] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194764" target="_blank" class="news-link">SkillForge: 用自然语言生成 OpenClaw AI Agent 技能，内置安全扫描</a> [11] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766406" target="_blank" class="news-link">AI冲击之下“铁索连环”，美国杠杆贷款遭重创，高达1500亿美元CLO证券面临冲击</a> [12] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194758" target="_blank" class="news-link">Chat Copilot： AI 对话增强助手（浏览器插件）大更新</a> [13] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47189853" target="_blank" class="news-link">OpenAI reaches deal to deploy AI models on U.S. DoW classified network</a> [13] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194756" target="_blank" class="news-link">Trellis v0.3.0 正式发布！支持多个主流 AI Coding 平台 + Windows</a> [14] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61574-2026-02-28-08-45-08.html" target="_blank" class="news-link">软银集团将向OpenAI追加出资300亿美元</a> [14] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766404" target="_blank" class="news-link">AI冲击“未来现金流”，华尔街量化策略的“传统因子”失效了</a> [15] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61572-2026-02-28-08-05-54.html" target="_blank" class="news-link">特朗普下令联邦政府全面停用Anthropic的AI</a> [16] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194745" target="_blank" class="news-link">AI 时代，好消息是年龄将不再是问题，坏消息是</a> [17] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47186677" target="_blank" class="news-link">I am directing the Department of War to designate Anthropic a supply-chain risk</a> [21] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1194694" target="_blank" class="news-link">历时两个月，开发了一个给命理师搭建 AI 智能体的网站</a> [22] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228120317791800" target="_blank" class="news-link">和Anthropic闹翻“仅数小时” 美国国防部便和OpenAI签署合作协议</a> [23] <font color='grey'>- 14时22分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47172238" target="_blank" class="news-link">Show HN: Unfucked - version all changes (by any tool) - local-first/source avail</a> [27] <font color='grey'>- 14时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
