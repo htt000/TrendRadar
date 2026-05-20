@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 116</p><p>生成时间: 2026-05-20 16:50:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">17</td>
+                <td class="percentage">14.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959103" target="_blank" class="news-link">AI圈“最炸裂的官司”打完了，详细总结下OpenAI、马斯克、奥特曼的大瓜</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48201484" target="_blank" class="news-link">Railway Blocked by Google Cloud</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3772658" target="_blank" class="news-link">谷歌I/O大会All in AI：Gemini模型上新，搜索框25年来最大改版，AI眼镜回归，Spark智能体首秀</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1214152" target="_blank" class="news-link">AI 越来越强，抓包工具会消失吗？想听听大家的看法</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772716" target="_blank" class="news-link">OpenAI等AI巨头IPO是想风险转嫁：把泡沫卖给散户和养老金？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772717" target="_blank" class="news-link">飞猪推出酒店商家智能助理，在线旅游平台开始用AI抢商家</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1214147" target="_blank" class="news-link">做了个 Obsidian AI 插件，支持 MCP / RAG / OpenAPI 工具 / 多模型，欢迎试用</a> [7] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48200569" target="_blank" class="news-link">Remove–AI–Watermarks – CLI and library for removing AI watermarks from images</a> [9] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260520164224925800" target="_blank" class="news-link">OpenAI：积极选择下一个国家教育合作伙伴，预计将在今年晚些时候公布。</a> [9] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959102" target="_blank" class="news-link">AI刚造出一批亿万富翁，但硅谷中产先崩了</a> [10] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772707" target="_blank" class="news-link">不满足于卖铲子！黄仁勋16个月砸900亿美元，几乎把整个AI圈投了个遍</a> [12] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1214124" target="_blank" class="news-link">自从用 claude code 、codex 之类 AI 编程工具，我现在每天都闲出了鸟，整天打哈欠</a> [13] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48196337" target="_blank" class="news-link">CopyFail: From Pod to Host</a> [15] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48197995" target="_blank" class="news-link">Mistral AI acquires Emmi AI</a> [16] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772704" target="_blank" class="news-link">戛纳电影节“大爆粗口”，毕业典礼嘘声四起——“抵制AI”已成浪潮</a> [16] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772702" target="_blank" class="news-link">OpenAI、英伟达、谷歌同日宣布在新加坡落地AI重磅计划</a> [17] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3772699" target="_blank" class="news-link">阿里云峰会：发布“真武M890”AI芯片、千问旗舰模型Qwen3.7-Max上线</a> [21] <font color='grey'>- 16时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
