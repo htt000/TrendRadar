@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 116</p><p>生成时间: 2026-06-05 20:29:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">17</td>
+                <td class="percentage">14.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1218289" target="_blank" class="news-link">分享一个 AI 多 agent 的小项目</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1218284" target="_blank" class="news-link">手机接管 AI Coding，我试了一圈发现已经有好几条路线了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773946" target="_blank" class="news-link">非农公布前美股承压，AI降温纳指期货跌超1.2%，WTI原油跌1%，现货白银跌超2.5%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260605200131431800" target="_blank" class="news-link">日立：双方正就定制芯片、边缘人工智能应用及工厂自动化领域的合作机会展开探索。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1218274" target="_blank" class="news-link">AI 的发展，是不是让大量社区的创意想法讨论也渐渐的下降了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/veltrix-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Veltrix AI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260605200113001800" target="_blank" class="news-link">日立：与英特尔(INTC.O)宣布战略合作，推动关键行业的人工智能转型。日立将在英特尔工厂部署HMAX能源系统，英特尔将向日立供应高压硅芯片。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1218272" target="_blank" class="news-link">AI Coding 是不是真的降低了软件开发的门槛？</a> [6] <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-05/%E6%97%A5%E6%9C%AC%E5%87%BA%E8%B5%845%E4%BA%BF%E7%BE%8E%E5%85%83%E5%8A%A0%E5%85%A5%E7%BE%8E%E5%9B%BDai%E5%9B%BD%E5%AE%B6%E9%A1%B9%E7%9B%AE-e267c4" target="_blank" class="news-link">日本出资5亿美元加入美国AI国家项目</a> [9] <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/openai/plugins" target="_blank" class="news-link">openai / plugins</a> [11]</div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48410769" target="_blank" class="news-link">We spent $50 to measure Pearl&#x27;s &quot;AI mining&quot; – 320K GPUs produce zero AI</a> [14] <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773923" target="_blank" class="news-link">创业板大跌超3%，机器人午后爆发，芯片半导体集体下挫，恒科指跌近2%，AI大模型股急跌</a> [15] <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/mai-image-2-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Microsoft MAI-Voice-2</a> [17] <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773963" target="_blank" class="news-link">Databricks CEO：我们不需要AI更聪明，只需要更长上下文</a> [18] <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-05/%E5%9B%BD%E6%98%9F%E5%AE%87%E8%88%AA%E4%B8%8E%E8%85%BE%E8%AE%AF%E4%BA%91%E7%AD%BE%E7%BA%A6%E5%85%B1%E5%BB%BA%E6%98%9F%E7%AE%97ai%E4%BA%91%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81-0bfd5b" target="_blank" class="news-link">国星宇航与腾讯云签约共建星算AI云服务生态</a> [21] <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260605194610022800" target="_blank" class="news-link">明阳电路：拟投入2.03亿元建设人工智能高阶HDI算力产品项目</a> [23] <font color='grey'>- 20时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3773961" target="_blank" class="news-link">黄仁勋落地韩国首个采访：AI基建下半年将更加繁忙，机器人是韩国下一大核心产业</a> [26] <font color='grey'>- 20时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
