@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 67</p><p>生成时间: 2026-06-09 05:40:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">16</td>
+                <td class="percentage">23.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48450142" target="_blank" class="news-link">Apple reveals new AI architecture built around Google Gemini models</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774156" target="_blank" class="news-link">OpenAI：已秘密向美国证券交易委员会（SEC）提交S-1注册声明草案。 尚未决定首次公开募股的时间</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260609052258365800" target="_blank" class="news-link">OpenAI自曝已秘密提交IPO申请</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48449084" target="_blank" class="news-link">Siri AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774148" target="_blank" class="news-link">苹果WWDC 2026：Siri AI姗姗来迟，Apple Intelligence全面升级，OS集体迈入27版，股价盘中转跌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1218903" target="_blank" class="news-link">给 AI Agent 造了个免费股票数据弹药库 — pip install 装了就能跑</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1218898" target="_blank" class="news-link">程序员！勇敢的拥抱 AI 时代！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260609051732279800" target="_blank" class="news-link">OpenAI：IPO可能需要一段时间，因为我们想做的一些事情，作为一家私营公司可能会更容易。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260609051515095800" target="_blank" class="news-link">OpenAI：尚未决定首次公开募股的时间。</a> [6] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260609051454671800" target="_blank" class="news-link">OpenAI已提交IPO申请</a> [7] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260609051127110800" target="_blank" class="news-link">OpenAI首席科学家：OpenAI致力追求的各项核心目标，均围绕着这一使命：确保通用人工智能造福全人类。人工智能应当增强人类的主体性，而非削弱人类在塑造未来中的作用与意义。</a> [9] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48447806" target="_blank" class="news-link">Show HN: Gitdot – a better GitHub. Open-source, anti-AI, and written in Rust</a> [11] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48449665" target="_blank" class="news-link">Apple Core AI Framework</a> [12] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48449187" target="_blank" class="news-link">Ask HN: What are tools you have made for yourself since the advent of AI?</a> [19] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260609040707367800" target="_blank" class="news-link">Applied Digital（APLD.O）签署Delta Forge2项目210兆瓦租赁协议，将其“AI工厂”特许经营模式扩展至第五个园区。</a> [22] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48446893" target="_blank" class="news-link">AI is slowing down</a> [23] <font color='grey'>- 05时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
