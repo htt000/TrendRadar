@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 73</p><p>生成时间: 2026-06-25 03:24:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">16</td>
+                <td class="percentage">21.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1222651" target="_blank" class="news-link">自己写了个电商 AI 换背景工具，求做电商和设计的兄弟们来挑挑刺、提提意见</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48663324" target="_blank" class="news-link">OpenAI unveils its first custom chip, built by Broadcom</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48660711" target="_blank" class="news-link">RubyLLM: A Ruby framework for all major AI providers</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775438" target="_blank" class="news-link">比特币跌破6万！AI吸走资金、散户缺席，华尔街接管市场后，谁来接住暴跌？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625030730792800" target="_blank" class="news-link">据华尔街日报：由Anthropic公司的老将成立的初创公司打算帮助科学家开发自己的人工智能。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775440" target="_blank" class="news-link">谷歌另外两名主要的AI员工恐将跳槽至Anthropic</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48660579" target="_blank" class="news-link">PR spam today looks like email spam in the early 2000s</a> [6] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775436" target="_blank" class="news-link">2.3万亿美元！日本推出14年超级投资计划，近1/3押注AI半导体</a> [6] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3775422" target="_blank" class="news-link">美光财报今夜揭晓：AI交易临界点逼近，存储龙头能否延续超级周期？</a> [8] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625024737401800" target="_blank" class="news-link">高通数据中心业务主管：高通第一代高带宽计算机（配备AI250）的商业样品预计将于2027年中期推出。</a> [12] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48646165" target="_blank" class="news-link">Show HN: peerd – AI agent harness that runs entirely in your browser</a> [17] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48637868" target="_blank" class="news-link">Why eval startups fail (2025)</a> [18] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48660839" target="_blank" class="news-link">For Most of the World, Open-Source AI Is the Only Way Forward</a> [20] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48661535" target="_blank" class="news-link">Boffin claims Microsoft&#x27;s &quot;quantum leap&quot; is invalid due to &quot;basic Python errors&quot;</a> [21] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625022949974800" target="_blank" class="news-link">谷歌又有两名重量级AI人才即将转投Anthropic</a> [23] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48661415" target="_blank" class="news-link">Journalism is rearranging the deckchairs. It needs to reinvent itself</a> [30] <font color='grey'>- 03时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
