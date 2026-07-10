@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 156</p><p>生成时间: 2026-07-10 16:57:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">24</td>
+                <td class="percentage">15.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226428" target="_blank" class="news-link">从 23 年 Copilot 到 26 年 Orca（GTP 5.6），记录一下这二三年是怎么用 AI 写代码的</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776651" target="_blank" class="news-link">华尔街还愿意给AI多少溢价？今夜，SK海力士美股首秀或揭晓答案</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959374" target="_blank" class="news-link">马斯克改口：Anthropic是AI领导者，我之前骂错了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226408" target="_blank" class="news-link">分享一下自建的 AI Agent 记忆系统——生产级， 171</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/fairtix-ticketing-for-event-organizers?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Fairtix Ticketing for Event Organizers</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226399" target="_blank" class="news-link">AI 时代，竟然有人要花 3 万去学 AI 编程</a> [6] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48856904" target="_blank" class="news-link">AI-generated videos to maximally drive a target brain region</a> [6] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776642" target="_blank" class="news-link">OpenAI“二号人物”离职，上市前夕再失大将</a> [6] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776606" target="_blank" class="news-link">美联储官宣五大改革工作组领导阵容，前央行行长、硅谷AI大佬、诺奖经济学家加盟</a> [7] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/artifex-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Artifex AI</a> [8] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776590" target="_blank" class="news-link">美国AI股太贵了？顶级基金经理：转战中国科技股、英股高股息与全球能源</a> [10] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776644" target="_blank" class="news-link">国产AI芯片独角兽燧原科技科创板IPO注册生效</a> [12] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226367" target="_blank" class="news-link">通过 ChatGPT 和 Codex 的合并，观察和对比各家的 AI 产品整合情况</a> [14] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776629" target="_blank" class="news-link">A股午后齐跌，创业板跌超3%，商业航天掀起涨停潮，创新药爆发，恒科指涨近2%，AI模型“双雄”下挫</a> [14] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226360" target="_blank" class="news-link">做了个 iOS App，能在手机上用 opencode 跟 AI 聊代码</a> [15] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776640" target="_blank" class="news-link">三星开发AI PC专用芯片“GAIA”，已向联想、惠普供样测试</a> [15] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226358" target="_blank" class="news-link">用 AI 重新写个手机操作系统是不是可行的？</a> [16] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226343" target="_blank" class="news-link">分享一个适用于个人小项目的的开发环境和部署环境 AI 协同技巧</a> [19] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48852199" target="_blank" class="news-link">Building a real-time AI tutor for 5-year-olds</a> [20] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226333" target="_blank" class="news-link">[开源] 为了做网站逆向，我给 ai 写了个小工具</a> [21] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776630" target="_blank" class="news-link">本轮AI何时见顶？过去二十年六个高景气行业案例：股价顶点领先基本面顶点约1-1.5 年，高景气行业往往呈现“M顶”</a> [22] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3776562" target="_blank" class="news-link">交换机超级周期：AI&quot;第三个算力瓶颈&quot;，以太网主宰万亿盛宴？</a> [24] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226296" target="_blank" class="news-link">好奇一个问题，用 ai 生成的代码，会不会自己复盘？</a> [29] <font color='grey'>- 16时57分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-09/%E9%9F%A9%E5%9B%BD%E6%94%BF%E5%BA%9C%E4%B8%8E%E4%B8%89%E6%98%9Fsk%E6%B5%B7%E5%8A%9B%E5%A3%AB%E5%AE%A3%E5%B8%834755%E4%B8%87%E4%BA%BF%E9%9F%A9%E5%85%83ai%E6%8A%95%E8%B5%84%E8%AE%A1%E5%88%92-512785" target="_blank" class="news-link">韩国政府与三星SK海力士宣布4755万亿韩元AI投资计划</a> [30] <font color='grey'>- 16时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">早报 午报 看点 人民日报 财联社 数据看盘 焦点复盘</td>
+                <td class="count">1</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/premium/articles/3776608?layout=wscn-layout" target="_blank" class="news-link">7月10日会员早报：中东战火重燃 沃什请“外脑”改造美联储</a> [9] <font color='grey'>- 16时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
