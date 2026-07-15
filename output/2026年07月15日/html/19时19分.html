@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2026-07-15 19:19:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">14</td>
+                <td class="percentage">14.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1227543" target="_blank" class="news-link">分享一个小工具： AiRoute — 本地 AI 路由转发网关</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/relo-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Job Offer Analyzer | Relo.AI</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/moeru-ai/airi" target="_blank" class="news-link">moeru-ai / airi</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777024" target="_blank" class="news-link">又有科技基金经理2季报“发声”：本轮AI产业周期和历史上科技泡沫完全不同</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776964" target="_blank" class="news-link">AI乐观情绪重燃，阿斯麦绩后涨7%，韩股涨到熔断、SK海力士涨约9%，油价维持80美元高位</a> [8] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777013" target="_blank" class="news-link">资深宏观投资人Jordi Visser：AI加速颠覆，未来一半的标普500公司或将无关紧要</a> [9] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777016" target="_blank" class="news-link">AI存储周期爆发，佰维存储上半年净利预增70亿元至75亿元，上年同期亏损2.26亿元｜财报见闻</a> [10] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/coreyhaines31/marketingskills" target="_blank" class="news-link">coreyhaines31 / marketingskills</a> [13]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777007" target="_blank" class="news-link">“大多头”Tom Lee：AI生产力最大短期赢家是金融服务业，上调标普500目标至8000点</a> [13] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-15/%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E9%A6%96%E6%AC%A1%E5%87%BA%E5%B8%AD2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F-9ccbe5" target="_blank" class="news-link">习近平将首次出席2026世界人工智能大会并发表主旨讲话</a> [14] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3777012" target="_blank" class="news-link">7款手机AI集体获批！苹果智能牵手阿里千问，努比亚豆包也在列</a> [14] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1227522" target="_blank" class="news-link">[送会员] 一个小工具，让 AI 全自动帮你运营自媒体，用你自己电脑发内容</a> [16] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/flashio-ai-flashcards-with-focus-lock?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Flashio: AI Flashcards with Focus Lock</a> [16] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715184543633800" target="_blank" class="news-link">哈萨克斯坦总统托卡耶夫抵达上海，将出席2026世界人工智能大会暨人工智能全球治理高级别会议。</a> [22] <font color='grey'>- 19时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
