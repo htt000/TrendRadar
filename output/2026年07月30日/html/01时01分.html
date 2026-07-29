@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 189</p><p>生成时间: 2026-07-30 01:01:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">24</td>
+                <td class="percentage">12.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1230854" target="_blank" class="news-link">开源了一个浏览器扩展 claudeFS：让 claude.ai 网页版直接读写本地文件夹， claude 免费版可用，零安装</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/moeru-ai/airi" target="_blank" class="news-link">moeru-ai / airi</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3778235" target="_blank" class="news-link">韩国股市疲弱压制韩元，AI基建融资转向表外与信用下沉，美股宏观与财报双重承压---0729宏观脱水</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1230847" target="_blank" class="news-link">最近做个项目 FeedWeave（AI RSS 阅读器）主打可核对的解读</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-21/%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E9%A6%96%E6%AC%A1%E5%87%BA%E5%B8%AD2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F-9ccbe5" target="_blank" class="news-link">习近平出席世界人工智能大会宣布成立WAICO</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1230842" target="_blank" class="news-link">&gt; VideoFlow - AI 视频反推提示词工具网站，帮你反推和分析任何爆款视频｜支持 API 和 MCP 接入</a> [7] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/bo-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Bo AI</a> [8] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778177" target="_blank" class="news-link">股价仍跌超10%！SK海力士电话会：未见AI投资放缓迹象，HBM4已提前量产，长协不会导致供应过剩</a> [8] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/different-ai/openwork" target="_blank" class="news-link">different-ai / openwork</a> [9] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730003826526800" target="_blank" class="news-link">市场消息：OpenAI首席执行官奥尔特曼在与美国共和党参议员特德·克鲁兹会晤后向记者发表评论，双方讨论了新的人工智能模型，奥尔特曼表达了对人工智能安全法案的支持，但未透露具体细节。</a> [9] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778137" target="_blank" class="news-link">费城半导体指数跌破11200点关键支撑，AI牛市悬了！</a> [10] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49096188" target="_blank" class="news-link">Document-borne AI worms can self-propagate through Copilot for Word</a> [11] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/MoonshotAI/FlashKDA" target="_blank" class="news-link">MoonshotAI / FlashKDA</a> [11] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49063983" target="_blank" class="news-link">Hunter-gatherers introduced fish to a mountain lake 7000 years ago</a> [12] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778229" target="_blank" class="news-link">OpenAI 硬件路线图曝光：第一台硬件没有屏幕，手机2027上半年量产</a> [14] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49098388" target="_blank" class="news-link">GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?</a> [15] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49093569" target="_blank" class="news-link">More Tailscale tricks for your jailbroken Kindle</a> [17] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1230819" target="_blank" class="news-link">用 Rust 做了个 AI 时代用的数据库客户端 RaisDB（40+ 引擎 / AI Agent / MCP Server）</a> [18] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/resumizeai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ResumizeAI</a> [18] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49096427" target="_blank" class="news-link">Disrupting supply chain attacks on NPM and GitHub Actions</a> [20] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-21/2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%9C%A8%E4%B8%8A%E6%B5%B7%E5%BC%80%E5%B9%95-0f1d96" target="_blank" class="news-link">2026世界人工智能大会在上海开幕展示超300款全球首发产品</a> [20] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3778227" target="_blank" class="news-link">扎克伯格：美国不应为了在竞赛中占据优势，而封禁中国AI模型</a> [21] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49099021" target="_blank" class="news-link">Ask HN: My domain registrar (Hover) rug-pulled me for $3000</a> [24] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49097908" target="_blank" class="news-link">CipherX applies painless permanent tattoos with dissolving microneedle patches</a> [26] <font color='grey'>- 01时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">早报 午报 看点 人民日报 财联社 数据看盘 焦点复盘</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3778192" target="_blank" class="news-link">加息还是暂停？新美联储通讯社：今晚FOMC三大看点全解析</a> [9] <font color='grey'>- 01时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
