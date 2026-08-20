@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 88</p><p>生成时间: 2026-08-20 20:21:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">15</td>
+                <td class="percentage">17.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779910" target="_blank" class="news-link">阿里电话会：AI年化收入突破495亿，阿里云收入增速加快至45%，平头哥芯片下半年将持续放量</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/checksum-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Checksum AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779913" target="_blank" class="news-link">大族数控上半年营收同比增长109.29%、净利润增263.45%，AI算力PCB需求爆发驱动业绩飞跃 | 财报见闻</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779911" target="_blank" class="news-link">歌尔股份半年营收超400亿元，收入恢复增长后加码AI硬件</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49373269" target="_blank" class="news-link">AI didn&#x27;t erase the junior engineer&#x27;s value, it increased it it</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/meetstream-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">MeetStream AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779905" target="_blank" class="news-link">报道：Meta悄然跻身微软最大AI客户，每年采购规模达数亿美元</a> [9] <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3779898" target="_blank" class="news-link">阿里Q2营收同比增9%略超预期，AI基础设施投入推高资本开支，自由现金流净流出扩大至447亿元｜财报见闻</a> [10] <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820200830173800" target="_blank" class="news-link">沃尔玛(WMT.N)CEO：富裕消费者的持续增长将推动公司发展。</a> [11] <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820200754163800" target="_blank" class="news-link">阿里吴泳铭：AI算力Capex投资回报确定性非常高，Capex投入三年内回本</a> [13] <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820200622551800" target="_blank" class="news-link">Coreweave(CRWV.O)：Hudson River Trading将在CoreWeave平台上，利用英伟达Vera Rubin NVL72和HGX B200开展人工智能研究。</a> [14] <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Tencent/AI-Infra-Guard" target="_blank" class="news-link">Tencent / AI-Infra-Guard</a> [16]</div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/bitdrift?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">bitdrift.ai</a> [17] <font color='grey'>- 20时21分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/RyanCodrai/turbovec" target="_blank" class="news-link">RyanCodrai / turbovec</a> [17]</div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/hermai-brand-api?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Hermai Brand API</a> [19] <font color='grey'>- 20时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
