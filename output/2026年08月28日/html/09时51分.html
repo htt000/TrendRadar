@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2026-08-28 09:51:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">11</td>
+                <td class="percentage">12.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780415" target="_blank" class="news-link">AI热情重燃，英伟达涨近9%力撑纳指大涨，软件股集体爆发，Salesforce飙涨23%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3780487" target="_blank" class="news-link">连续两次加息！AI繁荣逼韩国央行抢跑，10月步伐是否放缓？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49472820" target="_blank" class="news-link">Terminal-Bench-Science: Evaluating AI agents on scientific research workflows</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780435" target="_blank" class="news-link">英伟达已是AI界“央行”？亮眼财报背后，5300亿美元表外承诺浮现，信用市场高度警惕</a> [6] <font color='grey'>- 09时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49471714" target="_blank" class="news-link">AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab</a> [8] <font color='grey'>- 09时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780512" target="_blank" class="news-link">“AI央行”or“资产负债表即服务”质疑甚嚣尘上？英伟达叫停“收入分享换融资”模式</a> [8] <font color='grey'>- 09时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780507" target="_blank" class="news-link">OpenAI、Anthropic呼吁加强网络防御：AI能力提升加剧黑客攻击风险</a> [9] <font color='grey'>- 09时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49447057" target="_blank" class="news-link">The turbulent AI era is here</a> [12] <font color='grey'>- 09时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260828093419313800" target="_blank" class="news-link">A股AI应用端走强，鼎捷数智20cm涨停，此前天娱数科一字涨停，久其软件、奇安信、麒麟信安、深信服、天融信等涨幅靠前。</a> [12] <font color='grey'>- 09时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780415" target="_blank" class="news-link">AI热情重燃，英伟达涨近9%力撑纳指大涨，软件股集体爆发，Salesforce飙涨23%</a> [16] <font color='grey'>- 09时51分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49467837" target="_blank" class="news-link">Bild AI (YC W25) is hiring product and AI engineers</a> [21] <font color='grey'>- 09时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">早报 午报 看点 人民日报 财联社 数据看盘 焦点复盘</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3780502" target="_blank" class="news-link">8月28日会员早报：特朗普将安大略湖更名为“美国湖” 小麦价格创三年新高</a> [17] <font color='grey'>- 09时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
