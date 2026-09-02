@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2026-09-03 06:04:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">17</td>
+                <td class="percentage">32.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780939" target="_blank" class="news-link">博通上季营收增86%，AI芯片收入增两倍，本季指引“瑕疵”但AI收入料三年高增，盘后巨震 | 财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780943" target="_blank" class="news-link">博通电话会：AI业务营收指引从560亿美元上调至580亿美元。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903055310139800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：我们相信在未来两年内将向这些客户交付约3500亿美元的人工智能半导体。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780938" target="_blank" class="news-link">Meta发布更强大AI模型，声称进一步缩小了与竞争对手差距</a> [6] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49535284" target="_blank" class="news-link">Can I opt out of my input or output data being used for training?</a> [8] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780930" target="_blank" class="news-link">韩国万亿美元主权 AI 投资：英伟达胜出，海力士承压</a> [8] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3780909" target="_blank" class="news-link">中国出口三季度高位但渐进回落，中债独立行情与银行补负债信号，韩国AI拉动8月出口---0902宏观脱水</a> [9] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49540565" target="_blank" class="news-link">Qantas Airbus A380 engine failure in 2010 (2023)</a> [10] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780941" target="_blank" class="news-link">Snowflake上季营收超预期增35%，AI收入“显著跃升”，上调全年指引，盘后拉涨 | 财报见闻</a> [10] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49541754" target="_blank" class="news-link">Altair Basic Interpreter Source Code (1975) [pdf]</a> [13] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051826668800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：预计2028财年人工智能半导体营收将再次翻倍，达到2300亿美元。</a> [16] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051743522800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：到2027年我们已确保供应将人工智能营收翻倍至约1150亿美元。</a> [17] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051643087800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：我们正在与OpenAI合作开发第三代XPU。</a> [19] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051619620800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：到2028年，我们预计OpenAI将部署超过5吉瓦的Jelapeno及其后续一代XPU。</a> [20] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051542623800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：OpenAI的Jalapeno项目正按计划推进，预计将在2027年部署1.3吉瓦。</a> [21] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903051118704800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：将2026财年AI业务营收指引从560亿美元上调至580亿美元，同比增长186%。</a> [26] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49542443" target="_blank" class="news-link">Mamdani Bans AI in NYC Schools</a> [29] <font color='grey'>- 06时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
