@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 162</p><p>生成时间: 2026-09-21 19:18:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">16</td>
+                <td class="percentage">9.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49784873" target="_blank" class="news-link">Show HN: Bitcoin-rs – An AI-assisted Bitcoin full node in Rust</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/akitaonrails/ai-memory" target="_blank" class="news-link">akitaonrails / ai-memory</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782218" target="_blank" class="news-link">我们用190次财报任务实测了Jev：当AI判断被卖成零件</a> [6] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49783133" target="_blank" class="news-link">Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM</a> [7] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782214" target="_blank" class="news-link">软银寻求超110亿美元垃圾债融资，OpenAI押注与Arm抵押贷款推高杠杆风险</a> [8] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49781436" target="_blank" class="news-link">Amiga Unix, Again</a> [9] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/mailqv?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Mailqv</a> [12] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782207" target="_blank" class="news-link">&quot;2030年AI毁灭人类的概率是0%&quot;！黄仁勋：应尽可能快推进AI，我只怕穷，不怕税</a> [13] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3782076" target="_blank" class="news-link">功率半导体又涨价了：新周期、新革命，AI供电的隐藏红利受益者？</a> [15] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-15/bessent-to-meet-he-lifeng-this-weekend-f2198d" target="_blank" class="news-link">贝森特与何立峰纽约会谈宣布建立美中AI对话机制</a> [18] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/pdf-scanner-scan-convert-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">PDF Scanner: Scan &amp; Convert AI</a> [20] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782200" target="_blank" class="news-link">AI狂飙背后的“债务黑洞”：未来5年或需1.2万亿美元外部融资</a> [22] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1243633" target="_blank" class="news-link">突然想到 AI 一个很可怕的点，以后会没有程序员了，而这是我们自己造成的！</a> [23] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782199" target="_blank" class="news-link">AI 制药真正的 Scaling Law来了？</a> [24] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49772961" target="_blank" class="news-link">Spain orders blocks on Archive.today and its mirrors</a> [26] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1243610" target="_blank" class="news-link">开源了一个 Ai 3D 通用快速建模平台 aigccat 希望大家点评一下</a> [27] <font color='grey'>- 19时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">早报 午报 看点 人民日报 财联社 数据看盘 焦点复盘</td>
+                <td class="count">1</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3782201" target="_blank" class="news-link">人民日报：房地产进入存量阶段，绝非行业发展的退潮</a> [20] <font color='grey'>- 19时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
