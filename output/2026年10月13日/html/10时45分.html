@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 83</p><p>生成时间: 2026-10-13 10:45:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">突发 AI 人工智能 消费</td>
+                <td class="count">22</td>
+                <td class="percentage">26.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248294" target="_blank" class="news-link">纯前端对接接口的痛， AI 真的解决了吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/nestd-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">nestd.ai</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41960014" target="_blank" class="news-link">Perplexity CEO：AI时代，真正的大机会藏在小企业里</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013104225764800" target="_blank" class="news-link">IMF首席经济学家：人工智能在拉丁美洲地区并未成为强劲驱动力，大宗商品出口商表现良好。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41960013" target="_blank" class="news-link">扎克伯格：当AI开始替人花钱，消费市场可能大爆发</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50064318" target="_blank" class="news-link">GPT-6 Astra helped me jailbreak my Kindle</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783466" target="_blank" class="news-link">首发｜升级个人AI助理，千问将推出Personal Agent「千问Go！」</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013103819657800" target="_blank" class="news-link">美国贸易逆差大幅扩大，人工智能投资推动进口增长</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50063427" target="_blank" class="news-link">AI is a tool and using it well takes skill</a> [6] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50063365" target="_blank" class="news-link">Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X</a> [8] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41960012" target="_blank" class="news-link">Perplexity CEO：AI时代，赚钱不再靠流量，是靠帮用户赚更多</a> [8] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3783469" target="_blank" class="news-link">押注个人智能体赶超劲敌！Meta推出新模型Muse Wonder，扎克伯格称跻身AI前沿</a> [9] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41960011" target="_blank" class="news-link">投AI就像进赌场！</a> [11] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248259" target="_blank" class="news-link">现在 AI 是不是逐渐能取代很多高水平程序员了</a> [12] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41960010" target="_blank" class="news-link">“重置大神”Tibo：就在一年内，AI将让人不再盯着手机屏幕</a> [12] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013103203454800" target="_blank" class="news-link">IMF首席经济学家：泰国的前景在一定程度上因人工智能而变得更加光明。</a> [12] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013103151600800" target="_blank" class="news-link">IMF首席经济学家：韩国、新加坡和越南等国的人工智能供应链经济前景显著改善。</a> [13] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1248255" target="_blank" class="news-link">AI 白板课堂， ai 讲课玩法，求体验</a> [14] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3783487" target="_blank" class="news-link">英特尔和博通CEO同日警告：资本已成AI最大瓶颈，ROI比芯片更短缺！马斯克回应：在赌场就别哭</a> [15] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013102936071800" target="_blank" class="news-link">IMF首席经济学家：得益于人工智能的繁荣，亚洲经济增长对能源冲击表现出韧性。</a> [15] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013102918285800" target="_blank" class="news-link">IMF首席经济学家：中国和印度是增长的重要引擎；其他国家也从人工智能需求中受益。</a> [18] <font color='grey'>- 10时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013102750973800" target="_blank" class="news-link">IMF首席经济学家：亚洲是增长最快的地区，这得益于人工智能的蓬勃发展。</a> [20] <font color='grey'>- 10时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
